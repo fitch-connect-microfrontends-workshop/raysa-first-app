@@ -46,7 +46,7 @@ export default {
     }
   },
   methods: {
-    createTodo(msg) {
+    createTodo() {
       if (this.todoText === '') {
         return;
       }
@@ -82,6 +82,9 @@ export default {
 }
 .form {
     margin: auto;
+}
+ul {
+  list-style-type: none;
 }
 </style>
 
